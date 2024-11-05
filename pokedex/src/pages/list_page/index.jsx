@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { Container } from "./styles"
-import pikachu from "../../assets/pokemon.png"
 import axios from "axios";
 import Pokebox from "../../components/poke_box";
 import Pokemon from "../../components/models";

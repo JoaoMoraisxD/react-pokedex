@@ -1,4 +1,4 @@
-import React from "react";
+
 import { AtributosContainer, Box, ImgContainer } from "./styles";
 
 const Pokebox = ({ pokemon }) => {
@@ -21,7 +21,7 @@ const Pokebox = ({ pokemon }) => {
               </div>
           </ImgContainer>
           <AtributosContainer>
-              <div>
+              <div className="stats">
                 <h4>Stats</h4>
                 <ul>
                   {pokemon.stats.map((stat, index) => (

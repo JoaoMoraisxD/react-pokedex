@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import boxBackground from "../../assets/pokeBackground.png"
 
 export const Box = styled.div`
   display: flex;
@@ -36,6 +35,11 @@ export const AtributosContainer = styled.div`
   .type_stats{
     display: flex;
     flex-direction: row;
+  }
+
+  .stats{
+    display: grid;
+    grid-template-columns: 60px 60px;
   }
   div{
     width: 150px;
